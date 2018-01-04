@@ -1,0 +1,9 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Shooter I: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="437"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>

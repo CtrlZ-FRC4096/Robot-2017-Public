@@ -1,0 +1,15 @@
+# Copy this file to /lib/systemd/system/
+# Run the following commands:
+# sudo systemctl daemon-reload
+# sudo systemctl enable vision.service
+
+[Unit]
+Description=python vision scripts in /home/ctrlz/vision
+After=network-online.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /home/ctrlz/vision/grip_cscore_server.py
+
+[Install]
+WantedBy=multi-user.target

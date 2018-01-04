@@ -1,0 +1,162 @@
+<xml version="1.0">
+<dashboard>
+	<!--<widget field="Shooter I: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="437"/>
+	</widget>
+	<widget field="Calculated Distance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="414"/>
+	</widget>
+	<widget field="Cam Fudge: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="391"/>
+	</widget>
+	<widget field="Drive State:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="368"/>
+	</widget>
+	<widget field="Drivetrain Gear:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="345"/>
+	</widget>
+	<widget field="Drive Values Corrected (y,x,r): " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="322"/>
+	</widget>
+	<widget field="Autonomous Mode" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="182" y="161"/>
+	</widget>
+	<widget field="ENC Autocorrect constant " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="299"/>
+	</widget>
+	<widget field="Gear Targets Visible" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="276"/>
+	</widget>
+	<widget field="Feeder Lift PID Values: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="253"/>
+	</widget>
+	<widget field="Drive Values Corrected: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="230"/>
+	</widget>
+	<widget field="Talon Motor Output:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="207"/>
+	</widget>
+	<widget field="." type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="197" y="115"/>
+	</widget>
+	<widget field="Shooter P: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="184"/>
+	</widget>
+	<widget field="," type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="177" y="92"/>
+	</widget>
+	<widget field="drive encoder left distance:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="161"/>
+	</widget>
+	<widget field="Talon Speed:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="138"/>
+	</widget>
+	<widget field="Shooter D: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="115"/>
+	</widget>
+	<widget field="Auto Selector" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="92"/>
+	</widget>
+	<widget field="Gyro Autocorrect constant " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="69"/>
+	</widget>
+	<widget field="drive encoder right:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="46"/>
+	</widget>
+	<widget field="..." type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="186" y="69"/>
+	</widget>
+	<widget field="Gyro Angle: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="385" y="23"/>
+	</widget>
+	<widget field="drive encoder right rate:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="366" y="0"/>
+	</widget>
+	<widget field="Drive I: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="222" y="23"/>
+	</widget>
+	<widget field="Drive State: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="177" y="0"/>
+	</widget>
+	<widget field="Shooter Wheel: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="575"/>
+	</widget>
+	<widget field="Drive Values (y,x,r): " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="552"/>
+	</widget>
+	<widget field="Distance" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="529"/>
+	</widget>
+	<widget field="Drive Values: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="506"/>
+	</widget>
+	<widget field="raw x,y:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="483"/>
+	</widget>
+	<widget field="drive encoder right distance:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="460"/>
+	</widget>
+	<widget field="Drive Correction Int: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="437"/>
+	</widget>
+	<widget field="Feeder Lift Encoder: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="414"/>
+	</widget>
+	<widget field="drive encoder left rate:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="391"/>
+	</widget>
+	<widget field="Drive P: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="368"/>
+	</widget>
+	<widget field="Feeder Belts: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="345"/>
+	</widget>
+	<widget field="drive encoder left:" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="322"/>
+	</widget>
+	<widget field=".." type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="299"/>
+	</widget>
+	<widget field="Gyro: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="276"/>
+	</widget>
+	<widget field="Drive D: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="253"/>
+	</widget>
+	<widget field="pressure: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="230"/>
+	</widget>
+	<widget field="Ultra Distance: " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="207"/>
+	</widget>
+	<widget field="Gear Switch: " type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="184"/>
+	</widget>
+	<widget field="Shooter F: " type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="161"/>
+	</widget>
+	<widget field="Talon Error:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="138"/>
+	</widget>
+	<widget field="Motor Output:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="115"/>
+	</widget>
+	<widget field="cor x,y:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="92"/>
+	</widget>
+	<widget field="Gear Switch" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="69"/>
+	</widget>
+	<widget field="Shooter Targets Visible" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="46"/>
+	</widget>
+	<widget field="Drive Correction:  " type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="23"/>
+	</widget>
+	<widget field="Talon Get:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="0"/>-->
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>

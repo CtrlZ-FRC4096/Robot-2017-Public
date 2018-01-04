@@ -1,0 +1,69 @@
+<style>
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	position: relative;
+	width: 320px;
+	height: 240px;
+}
+
+.stream {
+	width: 100%;
+	height: 100%;
+}
+
+#gear_overlay {
+	position: absolute;
+	bottom: 0px;
+	right: 159px;
+	width: 2px;
+	height: 240px;
+	background: red;
+}
+
+#shooter_overlay1 {
+	position: absolute;
+	bottom: 0px;
+	right: 159px;
+	width: 2px;
+	height: 240px;
+	background: red;
+}
+
+#shooter_overlay2 {
+	position: absolute;
+	bottom: 119px;
+	right: 0px;
+	width: 320px;
+	height: 2px;
+	background: red;
+}
+
+</style>
+<html>
+	<head>
+		<title>isaac_streamer</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>
+					<div class="container">
+						<img class="stream" src="http://10.40.96.18:5800/stream.mjpg" />
+						<div id="gear_overlay"></div>
+					</div>
+				</td>
+				<td>
+					<div class="container">
+						<img class="stream" src="http://10.40.96.18:5801/stream.mjpg" />
+						<div id="shooter_overlay1"></div>
+						<div id="shooter_overlay2"></div>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

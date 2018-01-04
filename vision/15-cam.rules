@@ -1,0 +1,12 @@
+# Copy this file to /etc/udev/rules.d/ 
+# Camera rules for 2017 robot
+
+# Gear camera
+SUBSYSTEM=="video4linux", ATTRS{serial}=="77EF93FF", SYMLINK+="gear_camera"
+
+# Shooter camera 
+SUBSYSTEM=="video4linux", ATTRS{serial}=="C9E857FF", SYMLINK+="shooter_camera"
+
+# Test camera
+SUBSYSTEM=="video4linux", ATTRS{serial}=="0951DB1F", SYMLINK+="gear_camera"
+
